@@ -25,6 +25,7 @@ gem 'slim-rails'
 group :development do
   # gem 'rails_layout'
   gem 'spring-commands-rspec'
+  gem 'guard-rspec'
 end
 group :development, :test do
   gem 'factory_girl_rails'
